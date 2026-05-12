@@ -4,7 +4,6 @@ package Estruturas;
 
 import java.util.Locale;
 import java.util.Scanner;
-
 public class CalculoNotas {
     static void main(String[] args) {
         final double notaMinima = 150.0;

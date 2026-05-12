@@ -2,7 +2,6 @@ package Estruturas;
 
 // @author Marcelo Neves
 import java.util.Scanner;
-
 public class CalculoBonus {
     static void main(String[] args) {
         final int MES_JANEIRO = 1;
