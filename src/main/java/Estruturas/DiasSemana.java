@@ -4,6 +4,6 @@ package Estruturas;
 
 public class DiasSemana {
     static void main(String[] args) {
-        System.out.println("Dias da semana:");
+        System.out.println("Dias da semana 3:");
     }
 }
