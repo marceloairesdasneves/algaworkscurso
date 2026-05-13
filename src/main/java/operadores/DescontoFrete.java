@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class DescontoFrete {
     final static Double valorFrete = 15.00;
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             System.out.println("=====Desconto Frete=====");
             System.out.print("Digite o valor do Produto: ");

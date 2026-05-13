@@ -8,7 +8,8 @@ public class Calculadora {
     static Integer numero1;
     static Integer numero2;
     static Integer numeroOperacao;
-    static void main(String[] args) {
+
+    public static void main(String[] args) {
         char operacao = 0;
         try (Scanner sc = new Scanner(System.in)) {
             System.out.println("=====Calculadora=====");

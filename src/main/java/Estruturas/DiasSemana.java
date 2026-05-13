@@ -5,7 +5,7 @@ package Estruturas;
 import java.util.Scanner;
 
 public class DiasSemana {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         try(Scanner input = new Scanner(System.in)) {
             System.out.print("Digite um numero da Semana (1 - 7): ");
             int numero = input.nextInt();

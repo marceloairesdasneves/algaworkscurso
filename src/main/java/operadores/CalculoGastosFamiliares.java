@@ -6,7 +6,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class CalculoGastosFamiliares {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
             Locale.setDefault(Locale.US);
 

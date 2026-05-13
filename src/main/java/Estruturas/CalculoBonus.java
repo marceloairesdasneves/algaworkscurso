@@ -3,7 +3,7 @@ package Estruturas;
 // @author Marcelo Neves
 import java.util.Scanner;
 public class CalculoBonus {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         final int MES_JANEIRO = 1;
         try(Scanner sc = new Scanner(System.in)) {
             System.out.print("Digite a meta: ");
