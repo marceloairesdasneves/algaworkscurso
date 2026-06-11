@@ -1,6 +1,5 @@
 package aulainicial;// @author Marcelo Neves
 
-import aulainicial.TipoLogico;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
