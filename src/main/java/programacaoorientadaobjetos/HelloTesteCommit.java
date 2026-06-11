@@ -4,6 +4,6 @@ package programacaoorientadaobjetos;
 
 public class HelloTesteCommit {
     static void main(String[] args) {
-        System.out.println("Hello, World! Teste de Commit");
+        System.out.println("Hello, World! Teste de Commit....");
     }
 }
