@@ -5,17 +5,16 @@ import org.apache.commons.mail.Email;
 import org.apache.commons.mail.EmailException;
 import org.apache.commons.mail.SimpleEmail;
 
-public class EnvioEmailDeTarefas {
-    public static void main(String[] args) throws EmailException {
+public class Carteiro {
+    public static void enviar(String usuario, String senha, String para, String assunto, String msg) throws EmailException {
         Email email = new SimpleEmail();
         email.setHostName("smtp.gmail.com");
-        email.setSmtpPort(465);
-        email.setAuthenticator(new DefaultAuthenticator("mneves230@gmail.com", "etze aqih aqfw mzbu\n"));
+        email.setAuthenticator(new DefaultAuthenticator(usuario, senha)); //etze aqih aqfw mzbu
         email.setSSLOnConnect(true);
         email.setFrom("mneves230@gmail.com");
-        email.setSubject("TestMail");
-        email.setMsg("This is a test mail ... :-)");
-        email.addTo("marceloneves2@icloud.com");
+        email.setSubject(assunto);
+        email.setMsg(msg);
+        email.addTo(para);
         email.send();
         System.out.println("Email enviado com sucesso!");
     }
